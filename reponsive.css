@@ -4,7 +4,7 @@
     }
     .contact{
         top:400px !important;
-        right:0px !important;
+        right:15px !important;
     }
     .row-footer1{
         margin-left:10px !important;
@@ -19,9 +19,9 @@
     .col-item{
         padding-left:5px !important;
     }
-    .row-mobile-home{
+    /* .row-mobile-home{
         margin: auto !important;
-    }
+    } */
     .img-banner-mobile{
         width:360px !important;
     }
@@ -167,7 +167,7 @@
         margin-top:400px !important;
     }
     .img-banner-mobile{
-        width:380px !important;
+        width:360px !important;
         padding:unset !important;
         height: unset;
     }
@@ -211,6 +211,7 @@
     }
     .img-footer-div{
         top:300px !important;
+        margin-right:15px !important;
     }
     .footer-desc-mobile{
         width: unset !important;
