@@ -1,0 +1,999 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+        .flickity-page-dots {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact1" style="width: 60px;
+    position: fixed;
+    right: 10px;
+    top: 475px;
+    z-index: 1;
+    line-height: 4;">
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;margin-bottom:10px;" title="Gọi nhanh">
+        <a>
+            <img style="width:40px;height:40px;margin-top: -18px;" src="call.png" alt="">
+        </a>
+    </div>
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;margin-bottom:10px;" title="Zalo">
+        <a>
+            <img style="width:40px;height:40px;margin-top: -18px;" src="zalo.png" alt="">
+        </a>
+    </div>
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;margin-bottom:10px;" title="Messenger">
+        <a>
+            <img style="width:40px;height:40px;margin-top: -18px;" src="mess.png" alt="">
+        </a>
+    </div>
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;" title="Trở lại trang đầu">
+        <a href="#top">
+            <img style="width:40px;height:40px;margin-top: -18px;" src="arrow-up.png" alt="">
+        </a>
+    </div>
+    </div>
+    <!-- Body -->
+    <div class="container-fluid" style="padding-left:unset;padding-right:unset;" id="top">
+                                <!-- Mobile -->
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                                    <a class="navbar-brand" href="home.html" style="width:300px;">
+                                        <img style="width:150px;" src="logo.png" alt="">
+                                    </a>
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                      <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                  
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                      <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item active">
+                                          <a class="nav-link" href="home.html">TRANG CHỦ <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="gioi-thieu.html">GIỚI THIỆU</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                          <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            SẢN PHẨM
+                                          </a>
+                                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a class="dropdown-item" href="shop.html">Trang điểm</a>
+                                            <a class="dropdown-item" href="#">Chăm sóc da mặt</a>
+                                            <a class="dropdown-item" href="#">Chăm sóc tóc</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Chăm sóc cơ thể</a>
+                                            <a class="dropdown-item" href="#">Chăm sóc cá nhân</a>
+                                            <a class="dropdown-item" href="#">Chăm sóc sức khỏe</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="#">Dành cho Nam</a>
+                                            <a class="dropdown-item" href="#">Dành cho Bé</a>
+                                          </div>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" href="tin-tuc.html">TIN TỨC</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">LIÊN HỆ</a>
+                                          </li>
+                                      </ul>
+                                      <form class="form-inline my-2 my-lg-0">
+                                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                        <div style="display:flex;justify-content: space-between;width:100%;padding-top:15px;">
+                                            <button class="btn btn-outline-success my-2 my-sm-0"><i class="fa-solid fa-cart-shopping"></i> Giỏ Hàng</button>
+                                            <button class="btn btn-outline-danger my-2 my-sm-0"><i class="fa-solid fa-heart"></i> Yêu Thích</button>
+                                            <button class="btn btn-outline-primary my-2 my-sm-0"><i class="fa-solid fa-user"></i> Tài khoản</button>
+                                        </div>
+                                      </form>
+                                    </div>
+                                  </nav>
+                                  <!-- End -->
+                                  <div class="menu-body">
+                                    <div class="menu-board">
+                                        <div class="item-board">
+                                            <div class="home1" style="padding-right:5px;font-weight: 600;"><a style="text-decoration: none;color:black;" href="home.html">TRANG CHỦ</a></div>
+                                        </div>
+                                        <div class="item-board">
+                                            <!-- Elements -->
+                                            <div class="elements1" style="padding-right:5px;font-weight: 600;"><a href="gioi-thieu.html" style="color:unset;text-decoration: none;">GIỚI THIỆU</a>
+                                            </div>
+                                        </div>
+                                        <div class="item-board">
+                                            <!-- Shop -->
+                                            <div class="shop1" style="padding-right:5px;font-weight: 600;">SẢN PHẨM<i
+                                                style="font-size:10px;vertical-align: middle;" class="fa-solid fa-chevron-down"></i>
+                                                <div class="menu-shop">
+                                                    <div class="row" style="display:flex;justify-content: space-between;">
+                                                        <div class="col">
+                                                            <div style="padding:5px 40px;">
+                                                                <h5>Trang điểm</h5>
+                                                            </div>
+                                                            <div style="padding:5px 40px;">
+                                                                <a style="color:gray;" href="#">Dao cạo râu</a><br>
+                                                            </div>
+                                                            <div style="padding:5px 40px;">
+                                                                <a style="color:gray;" href="shop.html">Shop Layout <sup>V2</sup></a><br>
+                                                            </div>
+                                                            <div style="padding:5px 40px;">
+                                                                <a style="color:gray;" href="#">Rửa mặt</a><br>
+                                                            </div>
+                                                            <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                                <div style="padding:5px 30px;">
+                                                                    <h5>Chăm sóc cá nhân</h5>
+                                                                </div>
+                                                                <div style="padding:5px 40px;">
+                                                                    <a style="color:gray;" href="#">Dao cạo râu</a><br>
+                                                                </div>
+                                                                <div style="padding:5px 40px;">
+                                                                    <a style="color:gray;" href="shop.html">Shop Layout <sup>V2</sup></a><br>
+                                                                </div>
+                                                                <div style="padding:5px 40px;">
+                                                                    <a style="color:gray;" href="#">Rửa mặt</a><br>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div style="padding:5px 20px;">
+                                                               <h5>Chăm Sóc Da Mặt</h5>
+                                                            </div>
+                                                            <div style="padding:5px 40px;">
+                                                                <a style="color:gray;" href="#">Chăm sóc da mặt</a><br>
+                                                            </div>
+                                                            <div style="padding:5px 40px;">
+                                                                <a style="color:gray;" href="#">Product Layout<sup>V2</sup></a><br>
+                                                            </div>
+                                                            <div style="padding:5px 40px;">
+                                                                <a style="color:gray;" href="#">Product Layout<sup>V3</sup></a><br>
+                                                            </div>
+                                                            <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                                <div style="padding:5px 20px;">
+                                                                    <h5>Chăm Sóc Sức Khỏe</h5>
+                                                                 </div>
+                                                                 <div style="padding:5px 40px;">
+                                                                     <a style="color:gray;" href="#">Chăm sóc da mặt</a><br>
+                                                                 </div>
+                                                                 <div style="padding:5px 40px;">
+                                                                     <a style="color:gray;" href="#">Product Layout<sup>V2</sup></a><br>
+                                                                 </div>
+                                                                 <div style="padding:5px 40px;">
+                                                                     <a style="color:gray;" href="#">Product Layout<sup>V3</sup></a><br>
+                                                                 </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div style="padding:5px 20px;">
+                                                                <h5>Chăm sóc tóc</h5>
+                                                            </div>
+                                                            <div style="padding:5px 20px;">
+                                                                <a style="color:gray;" href="#">Product Simple</a><br>
+                                                            </div>
+                                                            <div style="padding:5px 20px;">
+                                                                <a style="color:gray;" href="#">Product Variable</a><br>
+                                                            </div>
+                                                            <div style="padding:5px 20px;">
+                                                                <a style="color:gray;" href="#">Product External / Affiliate </a><br>
+                                                            </div>
+                                                            <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                                <div style="padding:5px 20px;">
+                                                                    <h5>Dành cho Nam</h5>
+                                                                </div>
+                                                                <div style="padding:5px 20px;">
+                                                                    <a style="color:gray;" href="#">Product Simple</a><br>
+                                                                </div>
+                                                                <div style="padding:5px 20px;">
+                                                                    <a style="color:gray;" href="#">Product Variable</a><br>
+                                                                </div>
+                                                                <div style="padding:5px 20px;">
+                                                                    <a style="color:gray;" href="#">Product External / Affiliate </a><br>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col">
+                                                            <div style="padding:5px 20px;">
+                                                                <h5>Chăm sóc cơ thể</h5>
+                                                            </div>
+                                                            <div style="padding:5px 20px;">
+                                                                <a style="color:gray;" href="#">Shop Pages</a><br>
+                                                            </div>
+                                                            <div style="padding:5px 20px;">
+                                                                <a style="color:gray;" href="#">Checkout</a><br>
+                                                            </div>
+                                                            <div style="padding:5px 20px;">
+                                                                <a style="color:gray;" href="#">My Account</a><br>
+                                                            </div>
+                                                            <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                                <div style="padding:5px 20px;">
+                                                                    <h5>Dành cho Bé</h5>
+                                                                </div>
+                                                                <div style="padding:5px 20px;">
+                                                                    <a style="color:gray;" href="#">Shop Pages</a><br>
+                                                                </div>
+                                                                <div style="padding:5px 20px;">
+                                                                    <a style="color:gray;" href="#">Checkout</a><br>
+                                                                </div>
+                                                                <div style="padding:5px 20px;">
+                                                                    <a style="color:gray;" href="#">My Account</a><br>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div>
+                                                            <img style="width: 100%;
+                                                            height: 260px;padding-right:60px;" src="collection.png" alt="">
+                                                            <div><button class="btn-shopnow2">Shop now</button></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item-board">
+                                            <!-- Blog -->
+                                            <div class="blog1" style="padding-right:5px;font-weight: 600;"><a href="tin-tuc.html" style="text-decoration: none;color:unset;">TIN TỨC</a>
+                                            </div>
+                                        </div>
+                                        <div class="item-board">
+                                            <div class="page1" style="padding-right:5px;font-weight: 600;">LIÊN HỆ
+                                            </div>
+                                        </div>
+                                        <div class="img-logo-1980" style="margin-left:50px;">
+                                            <img style="width:200px;" src="logo.png" alt="">
+                                        </div>
+                                    </div>
+                                    <!-- <div style="margin-right:300px;">
+                                        <img style="width:200px;" src="logo.png" alt="">
+                                    </div> -->
+                                    <div class="menu-board">
+                                        <!-- <div style="padding-left:10px;" class="item-board1"><i style="font-size:20px;"
+                                                class="fa-solid fa-magnifying-glass"></i></div> -->      
+                                                <div class="search-box">
+                                                    <input type="text" placeholder="Tìm kiếm..">
+                                                    <div class="search-icon">
+                                                      <i class="fas fa-search"></i>
+                                                    </div>
+                                                    <div class="cancel-icon">
+                                                      <i class="fas fa-times"></i>
+                                                    </div>
+                                              <div class="search-data">
+                                              </div>
+                                              </div>            
+                                    </div>
+                                </div>
+        <div class="row row-pc" style="padding-top:150px;width: 100%;">
+            <div class="col-md-2" style="padding-left:50px;text-align: center;">
+                <div style="padding:10px 0;"><img class="img-detail-shop"  style="width:60px;height:60px;text-align: center;" src="detail-shop1.png" alt=""></div>
+                <div style="padding:10px 0;"><img class="img-detail-shop"  style="width:60px;height:60px;text-align: center;"src="detail-shop2.png" alt=""></div>
+                <div style="padding:10px 0;"><img class="img-detail-shop" style="width:60px;height:60px;text-align: center;" src="detail-shop3.png" alt=""></div>
+                <div style="padding:10px 0;"><img class="img-detail-shop"  style="width:60px;height:60px;text-align: center;"src="detail-shop4.png" alt=""></div>
+                <div style="padding:10px 0;"><img class="img-detail-shop"  style="width:60px;height:60px;text-align: center;"src="detail-shop5.png" alt=""></div>
+                <div style="padding:10px 0;"><img class="img-detail-shop"  style="width:60px;height:60px;text-align: center;"src="detail-shop6.png" alt=""></div>
+            </div>
+            <div class="col-md-5">
+                <img style="width:100%;" src="detail-shop1.png" alt="">
+            </div>
+            <div class="col-md-5">
+                <div class="infor-detail" style="width:500px;">
+                    <h5>
+                        Mặt Nạ Đen Lá Tràm Trà Kiểm Soát Dầu Và Ngừa Mụn Tea Tree Anti Blemish Black Facial Mask SEXYLOOK 28Ml
+                    </h5>
+                    <span style="color:grey;font-size:12px;">SKU: 3021295</span>
+                    <hr>
+                    <span style="font-size:20px;font-weight:bold">47.000<sup>đ</sup></span>
+                    <hr>
+                    <div style="display: flex;justify-content: space-between;align-items: center;">
+                        <div style="line-height: 3;">
+                            <span style="padding: 10px 30px;
+                            border: 1px solid;
+                            background: #f5b0bc;
+                            border-radius: 20px;
+                            color: white;cursor: pointer;"><i class="fa-solid fa-heart"></i> Thích</span>
+                            <span style="padding: 10px 30px;border: 1px solid;background: #1877F2;border-radius: 20px;color: white;cursor: pointer;"><i class="fa-brands fa-facebook"></i> Chia sẻ</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <br>
+                    <div style="display: flex;align-items: center;">
+                        <div><span style="font-weight: 600;font-size: 16px;">Số lượng:  &nbsp;</span></div>
+                        <div style="display: flex;">
+                            <input type="button" value="-" id="counter-minus"  style="cursor: pointer;;width:40px;font-weight: bold;background: black;
+                            color: white;">
+                            <!-- <input type="text" min="1" id="counter-display" style="width:70px;text-align: center;"> -->
+                            <span style="padding:4px 20px;text-align: center;border:solid;"id="counter-display"></span>
+                            <input type="button" value="+"  id="counter-plus" style="cursor: pointer;;width:40px;font-weight: bold;background: black;
+                            color: white;">
+                        </div>
+                    </div>    
+    
+                    <br>
+                    <hr>
+                    <div style="display: flex; align-items: center; padding-top:20px;">
+                        <div class="btn-themgiohang" style="padding: 15px 40px;
+                        border: 1px solid;
+                        background: red;
+                        color: white;
+                        width: 100%;text-align: center;">
+                            <a href="#" style="text-decoration: none;color:white;"><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="btn-muangay" style="padding: 15px 40px;
+                        border: 1px solid;
+                        background: red;
+                        color: white;
+                        width: 100%;text-align: center;">
+                            <a href="#" style="text-decoration: none;color:white;"><i class="fa-solid fa-dollar-sign"></i> Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-mobile-shop" style="padding-top:150px;width: 100%;">
+            <div class="col-md-5">
+                <img style="width:100%;" src="detail-shop1.png" alt="">
+            </div>
+            <div class="col-md-2 col-detail" style="padding-left:50px;text-align: center;">
+                <div style="padding:10px 0;"><img  style="width:60px;height:60px;text-align: center;" src="detail-shop1.png" alt=""></div>
+                <div style="padding:10px 0;"><img  style="width:60px;height:60px;text-align: center;"src="detail-shop2.png" alt=""></div>
+                <div style="padding:10px 0;"><img style="width:60px;height:60px;text-align: center;" src="detail-shop3.png" alt=""></div>
+                <div style="padding:10px 0;"><img  style="width:60px;height:60px;text-align: center;"src="detail-shop4.png" alt=""></div>
+                <div style="padding:10px 0;"><img  style="width:60px;height:60px;text-align: center;"src="detail-shop5.png" alt=""></div>
+                <div style="padding:10px 0;"><img  style="width:60px;height:60px;text-align: center;"src="detail-shop6.png" alt=""></div>
+            </div>
+            <div class="col-md-5">
+                <div class="detail-shop-buy" style="width:500px;">
+                    <h5>
+                        Mặt Nạ Đen Lá Tràm Trà Kiểm Soát Dầu Và Ngừa Mụn Tea Tree Anti Blemish Black Facial Mask SEXYLOOK 28Ml
+                    </h5>
+                    <span style="color:grey;font-size:12px;">SKU: 3021295</span>
+                    <hr>
+                    <span style="font-size:20px;font-weight:bold">47.000<sup>đ</sup></span>
+                    <hr>
+                    <div style="display: flex;justify-content: space-between;align-items: center;">
+                        <div style="line-height: 3;">
+                            <span class="btn-reaction" style="    padding: 10px 30px;
+                            border: 1px solid;
+                            background: #f5b0bc;
+                            border-radius: 20px;
+                            color: white;cursor: pointer;"><i class="fa-solid fa-heart"></i> Thích</span>
+                            <span class="btn-reaction" style="    padding: 10px 30px;
+                            border: 1px solid;
+                            background: #1877F2;
+                            border-radius: 20px;
+                            color: white;cursor: pointer;"><i class="fa-brands fa-facebook"></i> Chia sẻ</span>
+                        </div>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                    </div>
+                    <br>
+                    <div style="display: flex;align-items: center;">
+                        <div><span style="font-weight: 600;font-size: 16px;">Số lượng:  &nbsp;</span></div>
+                        <div style="display: flex;">
+                            <input type="button" value="-" id="counter-minus"  style="cursor: pointer;;width:40px;font-weight: bold;background: black;
+                            color: white;">
+                            <!-- <input type="text" min="1" id="counter-display" style="width:70px;text-align: center;"> -->
+                            <span style="padding:4px 20px;text-align: center;border:solid;"id="counter-display"></span>
+                            <input type="button" value="+"  id="counter-plus" style="cursor: pointer;;width:40px;font-weight: bold;background: black;
+                            color: white;">
+                        </div>
+                    </div>    
+    
+                    <br>
+                    <hr>
+                    <div style="display: flex; align-items: center; padding-top:20px;">
+                        <div class="btn-themgiohang" style="padding: 15px 40px;
+                        border: 1px solid;
+                        background: red;
+                        color: white;
+                        width: 100%;text-align: center;">
+                            <a href="#" style="text-decoration: none;color:white;"><i class="fa-solid fa-cart-shopping"></i> Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="btn-muangay" style="padding: 15px 40px;
+                        border: 1px solid;
+                        background: red;
+                        color: white;
+                        width: 100%;text-align: center;">
+                            <a href="#" style="text-decoration: none;color:white;"><i class="fa-solid fa-dollar-sign"></i> Mua ngay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-detail" style="padding-top:100px;width: 100%;">
+            <div class="col-md-1"></div>
+            <div class="col-md-10 info-sanpham" style="border: 1px solid #DFE0E1;border-radius:5px;padding:10px 30px;">
+                <div style="text-align: center;">
+                    <h6>MÔ TẢ SẢN PHẨM – DESCRIPTION</h6>
+                </div>
+                <ul style="list-style: none;padding:unset;">
+                    <li>- SEXYLOOK là thương hiệu mặt nạ nổi tiếng tại Đài Loan, có nhiều dòng mặt nạ với nhiều công dụng khác nhau và đang rất được người tiêu dùng ưa chuộng. Sản phẩm được nghiên cứu và sản xuất theo công nghệ Nhật Bản không chứa cồn hay các hoạt chất gây hại cho da, sẽ mang đến cho bạn làn da căng bóng, mịn mượt như da em bé chỉ sau lần đắp đầu tiên. Bạn hoàn toàn có thể an tâm về chất lượng của sản phẩm, phù hợp với mọi loại da, đặc biệt là làn da Châu Á</li>
+                    <li>- Mặt Nạ Đen SEXYLOOK với chất liệu vải cotton 100% dày dặn, ôm sát vào khuôn mặt nhằm đưa các dưỡng chất thấm sâu vào da hiệu quả nhất. Khi đắp mặt nạ lên da, bạn sẽ cảm nhận làn da mát lạnh và sự dễ chịu thoải mái mà SEXYLOOK mang lại. Làn da trở nên căng mọng, sáng, đầy sức sống chỉ sau một lần đắp. Đặc biệt hơn hết, mặt nạ SEXYLOOK thích hợp cho tất cả mọi loại da, kể cả làn da nhạy cảm nhất</li>
+                </ul>
+                <div>
+                     <h6>CÔNG DỤNG CHÍNH – MAIN FUNCTION</h6>
+                </div>   
+                <ul style="list-style: none;padding:unset;">
+                    <li>- Mặt nạ đen với thành phần chính là chiết xuất Tràm Trà, chiết xuất cây Phỉ, chiết xuất Hạt Đậu Lăng, Salicylic Acid sẽ là giải pháp tuyệt vời cho làn da dầu dễ nổi mụn, đặc biệt là dưới tác động của thời tiết nóng ẩm cùng không khí ô nhiễm tại Việt Nam</li>
+                    <li>- Chiết xuất Tràm Trà nổi tiếng với khả năng kháng viêm & kháng khuẩn tuyệt vời, hỗ trợ làm dịu các nốt mụn đang sưng tấy đỏ, ngăn ngừa mụn quay trở lại</li>
+                    <li>- Chiết xuất cây Phỉ có đặc tính làm se da, hỗ trợ thu nhỏ lỗ chân lông, làm dịu da</li>
+                    <li>- Salicylic Acid giúp làm sạch sâu lỗ chân lông, loại bỏ tế bào chết cùng bụi bẩn và bã nhờn bít tắc, điều tiết dầu thừa, làm thông thoáng làn da, hỗ trợ làm giảm mụn hiệu quả</li>
+                    <li>- Chiết xuất Đậu Lăng giảm nhờn và hỗ trợ se khít lỗ chân lông, tăng cường khả năng giữ ẩm giúp da mềm mịn</li>
+                    <li>- Tranexamic Acid góp mặt trong bảng thành phần hỗ trợ làm giảm các vết thâm mụn cũng như khắc phục tình trạng sạm da, xỉn màu thường gặp ở da dầu mụn</li>
+                    <li>- Thiết kế mặt nạ mềm mịn, có độ mỏng vừa phải, đường cắt vừa vặn và ôm sát theo gương mặt, đảm bảo dưỡng chất thẩm thấu tối ưu vào da mà vẫn mang lại cảm giác thoải mái dễ chịu trong suốt quá trình đắp</li>
+                </ul>
+                <div>
+                    <h6>CÁCH DÙNG – DIRECTION FOR USE</h6>
+                    <ul style="list-style: none;padding:unset;">
+                        <li>- Sau khi rửa mặt sạch, lấy mặt nạ ra khỏi bao bì và mở rộng</li>
+                        <li>- Đắp mặt nạ lên và thư giãn trong khoảng 10-15 phút</li>
+                        <li>- Sau đó lột bỏ mặt nạ và massage nhẹ nhàng cho dưỡng chất thẩm thấu nhanh hơn</li>
+                    </ul>
+                </div>  
+                <div>
+                    <h6>Thành phần:</h6> <span> Xem trên bao bì sản phẩm</span>
+                </div>
+                <div>
+                    <h6>Quy cách:</h6> <span>Gói, 28Ml </span>
+                </div>
+                <div>
+                    <h6>Bảo quản:</h6> <span>Bảo quản nơi khô ráo, thoáng mát, tránh ánh sáng trực tiếp</span>
+                </div>
+                <div>
+                    <h6>Xuất xứ:</h6> <span>Đài Loan</span>
+                </div>
+                <div>
+                    <h6>HSD:</h6> <span>Xem trên bao bì sản phẩm</span>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+        <!-- Đánh giá sản phẩm -->
+        <div class="row row-detail" style="width: 100%;padding-top:100px;">
+            <div class="col-md-1"></div>
+            <div class="col-md-10" style="padding:unset;">
+                <div style="text-align: center;padding-bottom:30px;">
+                    <h3 style="border-bottom:2px solid black;padding-bottom:10px;width: 300px;margin:auto;">Đánh giá sản phẩm</h3>
+                </div>
+                <div style="display: flex;justify-content: space-between;border:1px solid #DFE0E1;border-radius:5px;align-items: center;padding:10px 30px;">
+                    <div style="text-align: center;">
+                        Đánh giá sản phẩm
+                        <br>
+                        <span style="font-weight: bold;color:red;font-size:35px;">0/5</span>
+                        <br>
+                        <div>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <span>Dựa trên tất cả đánh giá</span>
+                    </div>
+                    <div>
+                        <span class="btn-rate" style="    border: 1px solid;
+                        padding: 10px 21px;
+                        border-radius: 5px;cursor: pointer;"> <i class="fa-sharp fa-solid fa-comment-dots"></i>&nbsp; Viết đánh giá</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1"></div>
+
+        </div>
+        <div style="text-align: center;margin:auto;padding-top:70px;width: 300px;">
+            <h3 style="border-bottom:2px solid black;padding-bottom:10px">Sản phẩm liên quan</h3>
+        </div>
+        <div class="row row-detail" style="width: 100%;padding-top:50px;">
+            <!-- All sản phẩm -->
+            <div class="allsanpham1" style="display: flex;justify-content: space-between;align-items: center;margin:auto;padding:0 25px;">
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="allsanpham" style="display: flex;justify-content: space-between;align-items: center;margin:auto;padding:15px 25px;">
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="allsanpham" style="display: flex;justify-content: space-between;align-items: center;margin:auto;padding:15px 25px;">
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+                <div class="section-shop" style="width:250px;padding:20px 30px;">
+                    <div style="text-align: center;">
+                        <img style="width:200px" src="shop-buy.png" alt="">
+                    </div>
+                    <div style="overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;">
+                        <span style="font-size:14px;">Mặt Nạ Chống Nhăn, Chống Lão Hóa Purederm Vàng Hồng Age Defying Cream Sheet Mask Rose Gold 10G</span>
+                    </div>
+                    <div style="padding:10px 0;">
+                        <span style="color:#FE9449;font-weight: bold;">70.000<sup>đ</sup></span>
+                    </div>
+                    <div>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer footer-2" style="position: relative;top:50px;height:500px;background-color: #F8F8F8;width: 100%;">
+        <div class="row" style="width: 100%;">
+            <div class="col-md-7">
+                <div class="row row-footer" style="position: relative;
+                top: 100px;
+                padding-left: 50px;">
+                    <div class="col-md-4 col-footer4">
+                        <h5>Company</h5>
+                        <ul class="contact-footer" style="width:170px;">
+                            <li class="item-contact">
+                                Find a location nearest you. See <a
+                                    style="text-decoration: underline;font-weight: bold;color:black;" href="#">Our
+                                    Stones</a><br>
+                            </li>
+                            <li class="item-contact" style="padding-top:20px;">
+                                <span style="font-weight: bold;color:black;">+391 (0)35 2568 4593</span>
+                                <span>hello@domain.com</span>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+                    <div class="col-md-4" style="padding-left:50px;">
+                        <h5>Useful links</h5>
+                        <ul class="contact-footer">
+                            <li class="item-contact">New Products</li>
+                            <li class="item-contact">Best Sellers</li>
+                            <li class="item-contact">Bundle & Save</li>
+                            <li class="item-contact">Online Gift Card</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" style="padding-left:50px;">
+                        <h5>Infomation</h5>
+                        <ul class="contact-footer">
+                            <li class="item-contact">Start a Return</li>
+                            <li class="item-contact">Contact Us</li>
+                            <li class="item-contact">Shipping FAQ</li>
+                            <li class="item-contact">Terms & Conditions</li>
+                            <li class="item-contact">Privacy Policy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5" style="position: relative;
+            top: 100px;
+            padding-left: 50px;">
+                <div class="row">
+                    <h3>Good emails.</h3><br>
+                    <p style="padding-top:15px;color:gray;width: 500px;">Enter your email below to be the first to know
+                        about new collections and product launches.</p>
+                </div>
+                <br>
+                <div class="row">
+                    <input class="input-footer" type="email" placeholder="Enter your email adress..."
+                        style="width: 400px; border:1px solid #EEEEEE;padding-left:15px;"><button style="    background: black;
+                    color: white;
+                    padding: 10px 35px;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-footerr" style="position: relative;
+        top: 150px;display: flex;justify-content: space-between;align-items: center;width: 100%;">
+            <div>
+                <div style="display: flex;
+                justify-content: space-evenly;
+                width: 350px;padding-left:50px;">
+                    <div>© Jany 2021</div>
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                    <div><i class="fa-brands fa-tiktok"></i></div>
+                    <div><i class="fa-brands fa-youtube"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                </div>
+            </div>
+            <div class="img-footer-logo" style="font-size:30px;font-weight: bold;text-align: center;">
+                <img style="width: 250px;" src="logo.png" alt="">
+            </div>
+            <div class="footer-icon" style="padding-right:50px;"><img src="icon-pay.png" alt=""></div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        let counterDisplayElem = document.getElementById('counter-display');
+        let counterMinusElem = document.getElementById('counter-minus');
+        let counterPlusElem = document.getElementById('counter-plus');
+
+        let count = 0;
+
+        updateDisplay();
+
+        counterPlusElem.addEventListener("click",()=>{
+            count++;
+            updateDisplay();
+        }) ;
+
+        counterMinusElem.addEventListener("click",()=>{
+            if(count != 0)
+            {
+                count--;
+                updateDisplay();
+            }
+            else{
+                updateDisplay();
+            }
+        });
+
+        function updateDisplay(){
+            counterDisplayElem.innerHTML = count;
+        };
+    </script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script>
+            const searchBox = document.querySelector(".search-box");
+            const searchBtn = document.querySelector(".search-icon");
+            const cancelBtn = document.querySelector(".cancel-icon");
+            const searchInput = document.querySelector("input");
+            const searchData = document.querySelector(".search-data");
+            searchBtn.onclick =()=>{
+              searchBox.classList.add("active");
+              searchBtn.classList.add("active");
+              searchInput.classList.add("active");
+              cancelBtn.classList.add("active");
+              searchInput.focus();
+              if(searchInput.value != ""){
+                var values = searchInput.value;
+                searchData.classList.remove("active");
+                searchData.innerHTML = "You just typed " + "<span style='font-weight: 500;'>" + values + "</span>";
+              }else{
+                searchData.textContent = "";
+              }
+            }
+            cancelBtn.onclick =()=>{
+              searchBox.classList.remove("active");
+              searchBtn.classList.remove("active");
+              searchInput.classList.remove("active");
+              cancelBtn.classList.remove("active");
+              searchData.classList.toggle("active");
+              searchInput.value = "";
+            }
+          </script>
+</body>
+
+</html>

@@ -1,0 +1,651 @@
+@media (max-width:400px){
+    .navbar-brand{
+        width:260px !important;
+    }
+    .contact{
+        top:588px !important;
+        right:0px !important;
+    }
+    .contact1{
+        top:588px !important;
+        right:20px !important;
+    }
+    .img1{
+        max-width: 400px !important;
+    }
+    .col-item{
+        padding-left:5px !important;
+    }
+    .row-mobile-home{
+        margin: auto !important;
+    }
+    .img-banner-mobile{
+        width:360px !important;
+    }
+    .colmd5-mobile{
+        padding:30px 20px !important;
+    }
+    .btn-reaction{
+        padding:10px 25px !important;
+    }
+    .btn-rate{
+        padding:10px 10px !important;
+    }
+}
+/* Iphone 6/7/8/Plus */
+@media (max-width:740px){
+    .navbar{
+        display: block !important;
+    }
+    .menu-body{
+        display: none !important;
+    }
+    .slider-mobile{
+        top:0px !important;
+    }
+    .infor-product{
+        top:13px !important;
+        width: 200px !important;
+        left:60px !important;
+    }
+    .title-product{
+        font-size:10px !important;
+    }
+    .name-product{
+        font-size:13px !important;
+    }
+    .desc-product{
+        padding:unset !important;
+        font-size:11px;
+    }
+    .btn-shopnow{
+        width: 80px !important;
+        height: 40px !important;
+        font-size: 12px !important;
+    }
+    .btn-mobile{
+        padding-top:10px;
+    }
+    .title-mobile{
+        font-size:13px !important;
+        top:30px !important;
+    }
+    .mobile-title{
+        font-size:20px !important;
+    }
+    .desc-mobile{
+        font-size:13px !important;
+    }
+    .carousel-pc{
+        display: none !important;
+    }
+    .carousel-mobile{
+        top:50px !important;
+        display: block !important;
+    }
+    .carousel-mobile2{
+        margin-top:400px !important;
+        display: block !important;
+
+    }
+    .item-carousel1{
+        width: 100% !important;
+    }
+    .carousel1-mobile{
+        text-align: center;
+    }
+    .img-mobile{
+        width: 100% !important;
+    }
+    .img-carousel{
+        width: 100% !important;
+    }
+    .select-item{
+        margin-left:330px !important;
+    }
+    .select-item1{
+        margin-left:330px !important;
+    }
+    .select-item2{
+        margin-left:330px !important;
+    }
+    .select-item3{
+        margin-left:330px !important;
+    }
+    .row-mobile{
+        margin-top:-170px;
+    }
+    .row-mobile-shop{
+        display: block !important;
+        padding:unset !important;
+      }
+      .img-shop-mobile{
+        width: 100% !important;
+      }
+      .select-item-shop-mobile{
+        left:300px !important;
+      }
+    .col-item{
+        padding-left:0px !important;
+    }
+    .img1{
+        width: 440px !important;
+    }
+    .infor-product1{
+        margin-left:35px !important;
+    }
+    .name-product1{
+        font-size:15px !important;
+        padding-bottom: 33px !important;
+    }
+    .title-product1{
+        font-size:20px !important;
+    }
+    .name-product11{
+        font-size:12px !important;
+        width: 150px !important;
+    }
+    .btn-shop-mobile{
+        font-size: 12px !important;
+    margin-top: -22px !important;
+    }
+    .row-mobile2{
+        padding-top:50px !important;
+        margin:auto !important;
+    }
+    .desc-pc{
+        display: none !important;
+    }
+    .desc-mobile2{
+        margin-top:400px !important;
+    }
+    .img-banner-mobile{
+        width:380px !important;
+        padding:unset !important;
+        height: unset;
+    }
+    .banner-mobile{
+        left:55px !important;
+    }
+    .col-7-mobile{
+        padding: unset !important;
+        left:-3px !important;
+
+    }
+    .img-col7-mobile{
+        width: 100% !important;
+    }
+    .row-col7-mobile{
+        margin-left:25px !important;
+        padding-top:unset !important;
+    }
+    .feature-product{
+        height:700px !important;
+    }
+    .desc-col4-mobile{
+        position: unset !important;
+        margin-left:unset !important;
+        margin:auto !important;
+    }
+    .mobile-footer1{
+        position: relative !important;
+        top: 2650px !important;
+    }
+    .row-footer1{
+        margin-left:-2px !important;
+        top:280px !important;
+    }
+    .img-footer1{
+        padding: unset !important;
+    }
+    .img-footer11{
+       width: 70px !important;
+       height: 70px !important;
+    }
+    .img-footer-div{
+        top:300px !important;
+    }
+    .footer-desc-mobile{
+        width: unset !important;
+        margin: unset !important;
+    }
+    .footer{
+        top:2800px !important;
+        height: unset !important;
+    }
+    .footer-2{
+        top:unset !important;
+    }
+    .col-footer4{
+        padding-left:50px !important;
+    }
+    .row-footer{
+        padding-left:unset !important;
+    }
+    .input-footer{
+        width: unset !important;
+    }
+    .img-footer-logo{
+        margin:auto !important;
+    }
+    .footer-icon{
+        padding-right:unset !important;
+        margin:auto !important;
+    }
+    .row-footerr{
+        background-color: #F8F8F8;
+    }
+    .row-gioithieu{
+        padding-top: unset !important;
+    }
+    .col-shop{
+        display: none !important;
+    }
+    .row-shop{
+        margin-left: 15px !important;
+    }
+    .img-shop1{
+        width:100% !important;
+    }
+    .col-md9-shop{
+        padding-right:unset !important;
+    }
+    .title-shop-mobile{
+        position: unset !important;
+        width: unset !important;
+    }
+    .mobile-none{
+        display: none !important;
+    }
+    .shop-select-mobile{
+        display: unset !important;
+    }
+    .shop-select-mobile span{
+        margin-left:40px !important;
+    }
+    .btn-more-mobile{
+        position: unset !important;
+        text-align: center !important;
+        margin:auto !important;
+        padding-bottom: 60px !important;
+    }
+    .col3-shop{
+        padding-left:unset !important;
+    }
+    .shop-shop{
+        margin-top:25px !important;
+    }
+    .row-tintuc{
+        padding-top:unset !important;
+        margin:unset !important;
+    }
+    .tinlamdep{
+        width: unset !important;
+        left: unset !important;
+    }
+    .tin-tuc-bai-viet{
+        display: unset !important;
+    }
+    .img-tintuc2{
+        width: 350px !important;
+    }
+    .desc-tintuc{
+        padding-left:20px;
+        padding-top:10px;
+    }
+    .tin-tuc-bai-viet-2{
+        display: unset !important;
+    }
+    .tin-tuc-2{
+        padding-top:150px !important;
+    }
+    .tin-tuc-3{
+        padding:30px 8px !important;
+    }
+    .xemthem-tintuc{
+        padding-top:unset !important;
+        padding-bottom: 30px !important;
+    }
+    .chuyenmuc-tintuc{
+        display: none !important;
+    }
+    .tinlamdep-tintuc{
+        padding-bottom: 30px;
+    }
+    .moibaiviet1{
+        width: 100% !important;
+    }
+    .row-moibaiviet{
+        display: none !important;
+    }
+    .row-moibaiviet1{
+        padding-top:50px !important;
+    }
+    .img-banner-moibaiviet{
+        width: 100% !important;
+        height:100% !important;
+    }
+    .banner-moibaiviet{
+        display: block !important;
+    }
+    .col-moibaiviet{
+        flex-basis: unset !important;
+    }
+    .row-moibaiviet4{
+        margin:unset !important;
+    }
+    .row-detail{
+        margin:unset !important;
+
+    }
+    .allsanpham{
+        display: none !important;
+    }
+    .allsanpham1{
+        display: unset !important;
+    }
+    .row-pc{
+        display: none !important;
+    }
+    .row-mobile{
+        display: block !important;
+    }
+    .col-detail{
+        display: flex !important;
+        padding-left:unset !important;
+        margin-left:40px !important;
+    }
+    .detail-shop-buy{
+        width: 100% !important;
+        margin-left:15px !important;
+    }
+    .btn-themgiohang{
+        padding:15px 4px !important;    
+    }
+    .btn-muangay{
+        padding:15px 4px !important;
+    }
+    .info-sanpham{
+        margin:auto !important;
+    }
+    .item-shop1{
+        margin-bottom:50px !important;
+    }
+}
+
+@media (min-width:1500px){
+    .carousel-pc-1980{
+        padding:0 30px !important;
+        justify-content: space-evenly !important;
+    }
+    .img-logo-1980{
+        margin-left:50px !important;
+    }
+}
+
+@media (min-width:1590px) and (max-width:1890px){
+    .carousel-pc-1980{
+        padding:0 30px !important;
+        justify-content: space-evenly !important;
+    }
+    .img-logo-1980{
+        margin-left:180px !important;
+    }
+    .col-item-1980{
+        margin-left:60px !important;
+    }
+    .img-footer-div{
+        top:450px !important;
+    }
+    .footer-home{
+        top:500px !important;
+    }
+    .p-home{
+        padding-left:35px !important;
+    }
+    .row-1980{
+        align-items: center !important;
+    }
+    .btn-more{
+        padding: 25px 100px !important;
+    }
+    .btn-more-mobile{
+        right:570px !important;
+        left:unset !important;
+        bottom:-120px !important;
+    }
+    .footer-shop{
+        top:150px !important;
+    }
+    .contact{
+        top:850px !important;
+    }
+}
+
+@media (min-width:1890px) and (max-width:1980px){
+    .carousel-pc-1980{
+        padding:0 30px !important;
+        justify-content: space-evenly !important;
+    }
+    .img-logo-1980{
+        margin-left:225px !important;
+    }
+    .col-item-1980{
+        margin-left:150px !important;
+    }
+    .img-footer-div{
+        top:450px !important;
+    }
+    .footer-home{
+        top:500px !important;
+    }
+    .p-home{
+        padding-left:35px !important;
+    }
+    .row-1980{
+        align-items: center !important;
+    }
+    .btn-more{
+        padding: 25px 100px !important;
+    }
+    .btn-more-mobile{
+        right:670px !important;
+        left:unset !important;
+        bottom:-120px !important;
+    }
+    .footer-shop{
+        top:150px !important;
+    }
+    .contact{
+        top:850px !important;
+    }
+}
+
+@media (min-width:1980px) and (max-width:2560px){
+    .carousel-pc-1980{
+        padding:0 125px !important;
+        justify-content: space-evenly !important;
+    }
+    .img-logo-1980{
+        margin-left:450px !important;
+    }
+    .col-item-1980{
+        margin-left:260px !important;
+    }
+    .img1{
+        width: 800px !important;
+    }
+    .img-footer-div{
+        top:450px !important;
+    }
+    .footer-home{
+        top:500px !important;
+    }
+    .p-home{
+        padding-left:35px !important;
+    }
+    .row-1980{
+        align-items: center !important;
+    }
+    .img-shop1{
+        width:300px !important;
+        height: 400px !important;
+    }
+    .title-shop-mobile{
+        position: unset !important;
+        margin : auto !important;
+        font-size:24px !important;
+    }
+    .img-shop{
+        width: 300px !important;
+        height: 400px !important;
+    }
+    .item-shop1{
+        margin-bottom:unset !important;
+    }
+    .btn-more{
+        padding: 25px 100px !important;
+    }
+    .btn-more-mobile{
+        right:670px !important;
+        left:unset !important;
+        bottom:-120px !important;
+    }
+    .cate-shop{
+        font-size:24px !important;
+    }
+    .price-shop{
+        font-size:24px !important;
+
+    }
+    .size-shop{
+        font-size:24px !important;
+
+    }
+    .tag-shop{
+        font-size:24px !important;
+
+    }
+    .footer-shop{
+        top:150px !important;
+    }
+    .select-item-shop{
+        left: 270px !important;
+    }
+    .contact{
+        top:850px !important;
+    }
+}
+
+@media (min-width:2560px){
+    .carousel-pc-1980{
+        padding:0 125px !important;
+        justify-content: space-evenly !important;
+    }
+    .img-logo-1980{
+        margin-left:600px !important;
+    }
+    .col-item-1980{
+        margin-left:200px !important;
+    }
+    .img1{
+        width: 1000px !important;
+    }
+    .img-rowmobile2{
+        width: 150px !important;
+    }
+    .colmd5-mobile{
+        text-align: center !important;
+    }
+    .banner-mobile{
+        left:335px !important;
+    }
+    .col-7-mobile{
+        padding:0 200px !important;
+    }
+    .img-banner-mobile{
+        width:unset !important;
+        height:unset !important;
+    }
+    .img-col7-mobile{
+        width:unset !important;
+        height:unset !important;
+    }
+    .mobile-footer1{
+        padding-top:200px !important;
+    }
+    .img-footer-div{
+        top:450px !important;
+    }
+    .footer-home{
+        top:900px !important;
+    }
+    .p-home{
+        padding-left:35px !important;
+    }
+    .row-1980{
+        align-items: center !important;
+    }
+
+    .img-shop1{
+        width:450px !important;
+        height: 500px !important;
+    }
+    .title-shop-mobile{
+        position: unset !important;
+        margin : auto !important;
+        font-size:24px !important;
+    }
+    .img-shop{
+        width: 450px !important;
+        height: 500px !important;
+    }
+    .select-item-shop{
+        left: 386px !important;
+        font-size:24px !important;
+    }
+    .item-shop-choose{
+        width:50px !important;
+        height:50px !important;
+    }
+    .item-shop1{
+        margin-bottom:unset !important;
+    }
+    .footer-shop{
+        top:150px !important;
+    }
+    .btn-more{
+        padding: 25px 100px !important;
+    }
+    .btn-more-mobile{
+        right:860px !important;
+        left:unset !important;
+        bottom:-90px !important;
+    }
+    .cate-shop{
+        font-size:24px !important;
+    }
+    .price-shop{
+        font-size:24px !important;
+
+    }
+    .size-shop{
+        font-size:24px !important;
+
+    }
+    .tag-shop{
+        font-size:24px !important;
+
+    }
+    .img-detail-shop{
+        width:100px !important;
+        height:100px !important;
+    }
+    .infor-detail{
+        width: 800px !important;
+        margin:auto !important;
+    }
+    .contact{
+        top:850px !important;
+    }
+}

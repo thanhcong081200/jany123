@@ -1,0 +1,470 @@
+/* Body */
+body{
+    background-color: #F8F8F8;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  .navbar{
+    display: none !important;
+  }
+  .carousel-mobile{
+    display: none !important;
+  }
+  .carousel-mobile2{
+    display: none !important;
+  }
+  .row-mobile-shop{
+    display: none !important;
+  }
+/* Header */
+.header{
+    height:54px;
+    background-color: #262626;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.header-mk{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 3;
+    z-index: 1;
+}
+.btn-header{
+    background-color: #7AA93C;
+    color:white;
+    text-decoration: none !important;
+    padding: 5px 15px 7px;
+    border-radius: 5px;
+}
+.btn-header:hover{
+    cursor: pointer;
+    color:white;
+}
+/* -------------------------------------------------End Header */
+
+/* Body */
+.menu-body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+    box-shadow: 1px 1px 3px grey;
+    z-index: 99999;
+}
+.menu-board{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-board{
+    padding:30px 20px;
+}
+.item-board1{
+    padding:30px 35px;
+}
+
+/* Slider */
+.infor-product{
+    position: absolute;
+    top:100px;
+    left:80px;
+    width: 440px;
+}
+.title-product{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.name-product{
+    font-size:56px;
+    padding:10px 0;
+    font-weight: 600;
+}
+.desc-product{
+ color: gray;
+    padding:25px 0;
+    font-size:15px;
+}
+.btn-shopnow{
+    width: 170px;
+    height: 50px;
+    background: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.fa-star{
+    color:#F2D18D;
+}
+.cost-item{
+    font-weight: bold;
+    text-align: center;
+}
+
+.infor-product1{
+    position: absolute;
+    top: 30px;
+    margin-left: 70px;
+    width: 300px;
+}
+.title-product1{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.title-product11{
+    font-size:30px;
+    padding:20px 0;
+    font-weight: 600;
+}
+.name-product1{
+    font-size:30px;
+    padding:20px 0;
+    font-weight: 600;
+}
+.btn-shopnow1{
+    background: white;
+    font-weight: bold;
+    padding: 13px 23px;
+    border-radius: 5px;
+    border: unset;
+    text-decoration: none !important;
+    color: black;
+    line-height: 3;
+    box-shadow: 1px 1px 3px 0px grey;
+}
+.btn-shopnow1:hover{
+    background-color: black;
+    color:white;
+}
+.contact-footer{
+    list-style: none;
+    padding:unset;
+    font-size:15px;
+    color:gray;
+}
+.item-contact{
+    padding:7px 0;
+}
+/* Shop */
+.menu-shop{    visibility: hidden;
+    transition: all .3s linear;
+    transform: translateY(30px);
+    width: 100%;
+    top: 85px;
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 1px 1px 3px 0px grey;
+    background-color: white;
+    padding: 25px 36px;
+    left:0;
+   cursor: pointer;
+   z-index: 1;
+
+}
+.shop1{
+   cursor: pointer;
+
+}
+.shop1::before{
+    background-color: transparent;
+    width: 88px;
+    height: 72px;
+    content: "";
+    position: absolute;
+    z-index: 1;
+}
+.shop1::after{
+    background-color: transparent;
+    width: 22px;
+    height: 100px;
+    content: "";
+    position: absolute;
+}
+.shop1:hover .menu-shop{
+    visibility: visible;
+    cursor: pointer;
+    transform: translateY(0px);
+    transition: all .3s linear;
+}
+.btn-shopnow2{
+    border-radius: unset;
+    width: 120px;
+    position: absolute;
+    bottom: 132px;
+    right: 196px;
+    height: 40px;
+    border: unset;
+    background: white;
+    color: black;
+    font-weight: unset;
+    line-height:0;
+}
+.btn-shopnow2:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+}
+/*  */
+.item-choose:hover{
+    background-color: black;
+    color:white !important;
+}
+.item-choose1:hover{
+    background-color: black;
+    color:white !important;
+}
+.item-choose2:hover{
+    background-color: black;
+    color:white !important;
+}
+.item-choose3:hover{
+    background-color: black;
+    color:white !important;
+}
+.fa-starr{
+    color:unset;
+}
+/* Fade */
+.img-carousel{
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    visibility: hidden;
+    transition: all .3s linear;
+}
+.img1{
+    transition: all .5s linear;
+    transform: scale(0.9);
+    box-shadow: 1px 1px 3px 0px grey;
+
+}
+.col-item:hover .img1{
+    transition: all .5s linear;
+    transform: scale(1);
+    box-shadow: 1px 1px 3px 0px grey;
+}
+.item-carousel1:hover .img-carousel{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all .3s linear;
+    visibility: visible;
+
+}
+.item-carousel1:hover .select-item{
+    visibility: visible;
+    transform: translateX(-10px);
+    transition: all .3s linear;
+}
+.item-carousel1:hover .select-item1{
+    visibility: visible;
+    transform: translateX(-10px);
+    transition: all .3s linear;
+}
+.item-carousel1:hover .select-item2{
+    visibility: visible;
+    transform: translateX(-10px);
+    transition: all .3s linear;
+}
+.item-carousel1:hover .select-item3{
+    visibility: visible;
+    transform: translateX(-10px);
+    transition: all .3s linear;
+}
+.select-item{
+    position: absolute;
+    margin-left:300px;
+    top:110px;
+    visibility: hidden;
+    transform: translateX(3px);
+    transition: all .3s linear;
+}
+.item-choose{
+    padding: 8px 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    margin:15px 0;
+}
+.select-item1{
+    position: absolute;
+    margin-left:300px;
+    top:110px;
+    visibility: hidden;
+    transform: translateX(3px);
+    transition: all .3s linear;
+}
+.item-choose1{
+    padding: 8px 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    margin:15px 0;
+}
+.select-item2{
+    position: absolute;
+    margin-left:300px;
+    top:110px;
+    visibility: hidden;
+    transform: translateX(3px);
+    transition: all .3s linear;
+}
+.item-choose2{
+    padding: 8px 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    margin:15px 0;
+}
+.select-item3{
+    position: absolute;
+    margin-left:300px;
+    top:110px;
+    visibility: hidden;
+    transform: translateX(3px);
+    transition: all .3s linear;
+}
+.item-choose3{
+    padding: 8px 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    margin:15px 0;
+}
+.btn-more{
+    background-color: white;
+    transition: all .2s linear;
+}
+.btn-more:hover{
+    background-color: black;
+    color:white;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.item-shop1{
+    margin-bottom:120px;
+}
+.item-shop1:hover .img-shop{
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all .3s linear;
+    visibility: visible;
+    cursor: pointer;
+}
+/* Fade */
+.img-shop{
+    width: 250px;
+    height: 330px;
+    position: absolute;
+    visibility: hidden;
+    transition: all .3s linear;
+}
+.item-shop1:hover .select-item-shop{
+    visibility: visible;
+    transform: translateX(-10px);
+    transition: all .3s linear;
+}
+.select-item-shop{
+    position: absolute;
+    left: 225px;
+    top: 55px;
+    visibility: hidden;
+    transform: translateX(3px);
+    transition: all .3s linear;
+}
+.item-shop-choose{
+    padding: 8px 0;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 50%;
+    text-align: center;
+    margin:15px 0;
+}
+.item-shop-choose:hover{
+    background-color: black;
+    color:white !important;
+}
+.btn-themgiohang{
+    transition: all .5s linear;
+}
+.btn-themgiohang:hover{
+    transition: all .5s linear;
+    background-color: rgb(255, 200, 3) !important;
+}
+.btn-muangay{
+    transition: all .5s linear;
+}
+.btn-muangay:hover{
+    transition: all .5s linear;
+    background-color: rgb(12, 219, 12) !important;
+}
+.section-shop{
+    transition: all .3s linear;
+    transform: translateX(0px);
+}
+.section-shop:hover{
+    transition: all .3s linear;
+    transform: translateY(-15px);
+    box-shadow: 0px 0px 3px grey;
+    cursor: pointer;
+}
+.tinlamdep{
+    position: relative;
+    bottom: 93px;
+    border: solid;
+    width: 455px;
+    left: -13px;
+    background: white;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.mucyeuthich{
+    border:1px solid #CCCCCC;
+    padding:10px 10px;
+}
+.btn-muabaiviet{
+    padding:10px 20px;
+    background:red;
+}
+.tin-tuc-bai-viet{
+    transition: all .2s linear;
+}
+
+.tin-tuc-bai-viet:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.tin-tuc-bai-viet-2{
+    transition: all .2s linear;
+}
+
+.tin-tuc-bai-viet-2:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+
+.moi-bai-viet{
+    transition: all .2s linear;
+}
+
+.moi-bai-viet:hover{
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all .2s linear;
+}

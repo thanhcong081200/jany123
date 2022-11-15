@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reponsive.css">
+    <link rel="stylesheet" href="newstyle.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <style>
+        .flickity-page-dots {
+            position: absolute;
+            /* bottom: 30px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contact" style="width: 60px;
+    position: fixed;
+    right: 10px;
+    top: 475px;
+    z-index: 1;
+    line-height: 4;">
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;margin-bottom:10px;" title="Gọi nhanh">
+        <a>
+            <img style="width:40px;height:40px;margin-top: -18px;" src="call.png" alt="">
+        </a>
+    </div>
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;margin-bottom:10px;" title="Zalo">
+        <a>
+            <img style="width:40px;height:40px;margin-top: -18px;" src="zalo.png" alt="">
+        </a>
+    </div>
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;margin-bottom:10px;" title="Messenger">
+        <a>
+            <img style="width:40px;height:40px;margin-top: -18px;" src="mess.png" alt="">
+        </a>
+    </div>
+    <div style="width: 50px;background: white;height: 50px;text-align: center;border-radius: 50%;box-shadow: 1px 1px 3px grey;" title="Trở lại trang đầu">
+        <a href="#top">
+            <img style="width:40px;height:40px;margin-top: -18px;" src="arrow-up.png" alt="">
+        </a>
+    </div>
+    </div>
+    <!-- Body -->
+    <div class="container-fluid" style="padding-left:unset;padding-right:unset;" id="top">
+                        <!-- Mobile -->
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="home.html" style="width:300px;">
+                                <img style="width:150px;" src="logo.png" alt="">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                          
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                  <a class="nav-link" href="home.html">TRANG CHỦ <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="gioi-thieu.html">GIỚI THIỆU</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    SẢN PHẨM
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="shop.html">Trang điểm</a>
+                                    <a class="dropdown-item" href="#">Chăm sóc da mặt</a>
+                                    <a class="dropdown-item" href="#">Chăm sóc tóc</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Chăm sóc cơ thể</a>
+                                    <a class="dropdown-item" href="#">Chăm sóc cá nhân</a>
+                                    <a class="dropdown-item" href="#">Chăm sóc sức khỏe</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Dành cho Nam</a>
+                                    <a class="dropdown-item" href="#">Dành cho Bé</a>
+                                  </div>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="tin-tuc.html">TIN TỨC</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">LIÊN HỆ</a>
+                                  </li>
+                              </ul>
+                              <form class="form-inline my-2 my-lg-0">
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <div style="display:flex;justify-content: space-between;width:100%;padding-top:15px;">
+                                    <button class="btn btn-outline-success my-2 my-sm-0"><i class="fa-solid fa-cart-shopping"></i> Giỏ Hàng</button>
+                                    <button class="btn btn-outline-danger my-2 my-sm-0"><i class="fa-solid fa-heart"></i> Yêu Thích</button>
+                                    <button class="btn btn-outline-primary my-2 my-sm-0"><i class="fa-solid fa-user"></i> Tài khoản</button>
+                                </div>
+                              </form>
+                            </div>
+                          </nav>
+                          <!-- End -->
+                          <div class="menu-body">
+                            <div class="menu-board">
+                                <div class="item-board">
+                                    <div class="home1" style="padding-right:5px;font-weight: 600;"><a style="text-decoration: none;color:black;" href="home.html">TRANG CHỦ</a></div>
+                                </div>
+                                <div class="item-board">
+                                    <!-- Elements -->
+                                    <div class="elements1" style="padding-right:5px;font-weight: 600;"><a href="gioi-thieu.html" style="color:unset;text-decoration: none;">GIỚI THIỆU</a>
+                                    </div>
+                                </div>
+                                <div class="item-board">
+                                    <!-- Shop -->
+                                    <div class="shop1" style="padding-right:5px;font-weight: 600;">SẢN PHẨM<i
+                                        style="font-size:10px;vertical-align: middle;" class="fa-solid fa-chevron-down"></i>
+                                        <div class="menu-shop">
+                                            <div class="row" style="display:flex;justify-content: space-between;">
+                                                <div class="col">
+                                                    <div style="padding:5px 40px;">
+                                                        <h5>Trang điểm</h5>
+                                                    </div>
+                                                    <div style="padding:5px 40px;">
+                                                        <a style="color:gray;" href="#">Dao cạo râu</a><br>
+                                                    </div>
+                                                    <div style="padding:5px 40px;">
+                                                        <a style="color:gray;" href="shop.html">Shop Layout <sup>V2</sup></a><br>
+                                                    </div>
+                                                    <div style="padding:5px 40px;">
+                                                        <a style="color:gray;" href="#">Rửa mặt</a><br>
+                                                    </div>
+                                                    <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                        <div style="padding:5px 30px;">
+                                                            <h5>Chăm sóc cá nhân</h5>
+                                                        </div>
+                                                        <div style="padding:5px 40px;">
+                                                            <a style="color:gray;" href="#">Dao cạo râu</a><br>
+                                                        </div>
+                                                        <div style="padding:5px 40px;">
+                                                            <a style="color:gray;" href="shop.html">Shop Layout <sup>V2</sup></a><br>
+                                                        </div>
+                                                        <div style="padding:5px 40px;">
+                                                            <a style="color:gray;" href="#">Rửa mặt</a><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div style="padding:5px 20px;">
+                                                       <h5>Chăm Sóc Da Mặt</h5>
+                                                    </div>
+                                                    <div style="padding:5px 40px;">
+                                                        <a style="color:gray;" href="#">Chăm sóc da mặt</a><br>
+                                                    </div>
+                                                    <div style="padding:5px 40px;">
+                                                        <a style="color:gray;" href="#">Product Layout<sup>V2</sup></a><br>
+                                                    </div>
+                                                    <div style="padding:5px 40px;">
+                                                        <a style="color:gray;" href="#">Product Layout<sup>V3</sup></a><br>
+                                                    </div>
+                                                    <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                        <div style="padding:5px 20px;">
+                                                            <h5>Chăm Sóc Sức Khỏe</h5>
+                                                         </div>
+                                                         <div style="padding:5px 40px;">
+                                                             <a style="color:gray;" href="#">Chăm sóc da mặt</a><br>
+                                                         </div>
+                                                         <div style="padding:5px 40px;">
+                                                             <a style="color:gray;" href="#">Product Layout<sup>V2</sup></a><br>
+                                                         </div>
+                                                         <div style="padding:5px 40px;">
+                                                             <a style="color:gray;" href="#">Product Layout<sup>V3</sup></a><br>
+                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div style="padding:5px 20px;">
+                                                        <h5>Chăm sóc tóc</h5>
+                                                    </div>
+                                                    <div style="padding:5px 20px;">
+                                                        <a style="color:gray;" href="#">Product Simple</a><br>
+                                                    </div>
+                                                    <div style="padding:5px 20px;">
+                                                        <a style="color:gray;" href="#">Product Variable</a><br>
+                                                    </div>
+                                                    <div style="padding:5px 20px;">
+                                                        <a style="color:gray;" href="#">Product External / Affiliate </a><br>
+                                                    </div>
+                                                    <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                        <div style="padding:5px 20px;">
+                                                            <h5>Dành cho Nam</h5>
+                                                        </div>
+                                                        <div style="padding:5px 20px;">
+                                                            <a style="color:gray;" href="#">Product Simple</a><br>
+                                                        </div>
+                                                        <div style="padding:5px 20px;">
+                                                            <a style="color:gray;" href="#">Product Variable</a><br>
+                                                        </div>
+                                                        <div style="padding:5px 20px;">
+                                                            <a style="color:gray;" href="#">Product External / Affiliate </a><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col">
+                                                    <div style="padding:5px 20px;">
+                                                        <h5>Chăm sóc cơ thể</h5>
+                                                    </div>
+                                                    <div style="padding:5px 20px;">
+                                                        <a style="color:gray;" href="#">Shop Pages</a><br>
+                                                    </div>
+                                                    <div style="padding:5px 20px;">
+                                                        <a style="color:gray;" href="#">Checkout</a><br>
+                                                    </div>
+                                                    <div style="padding:5px 20px;">
+                                                        <a style="color:gray;" href="#">My Account</a><br>
+                                                    </div>
+                                                    <div class="col" style="margin-left:-15px;padding-top:30px;">
+                                                        <div style="padding:5px 20px;">
+                                                            <h5>Dành cho Bé</h5>
+                                                        </div>
+                                                        <div style="padding:5px 20px;">
+                                                            <a style="color:gray;" href="#">Shop Pages</a><br>
+                                                        </div>
+                                                        <div style="padding:5px 20px;">
+                                                            <a style="color:gray;" href="#">Checkout</a><br>
+                                                        </div>
+                                                        <div style="padding:5px 20px;">
+                                                            <a style="color:gray;" href="#">My Account</a><br>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <img style="width: 100%;
+                                                    height: 260px;padding-right:60px;" src="collection.png" alt="">
+                                                    <div><button class="btn-shopnow2">Shop now</button></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-board">
+                                    <!-- Blog -->
+                                    <div class="blog1" style="padding-right:5px;font-weight: 600;"><a href="tin-tuc.html" style="text-decoration: none;color:unset;">TIN TỨC</a>
+                                    </div>
+                                </div>
+                                <div class="item-board">
+                                    <div class="page1" style="padding-right:5px;font-weight: 600;">LIÊN HỆ
+                                    </div>
+                                </div>
+                                <div style="margin-left:50px;">
+                                    <img style="width:200px;" src="logo.png" alt="">
+                                </div>
+                            </div>
+                            <!-- <div style="margin-right:300px;">
+                                <img style="width:200px;" src="logo.png" alt="">
+                            </div> -->
+                            <div class="menu-board">
+                                <!-- <div style="padding-left:10px;" class="item-board1"><i style="font-size:20px;"
+                                        class="fa-solid fa-magnifying-glass"></i></div> -->      
+                                        <div class="search-box">
+                                            <input type="text" placeholder="Tìm kiếm..">
+                                            <div class="search-icon">
+                                              <i class="fas fa-search"></i>
+                                            </div>
+                                            <div class="cancel-icon">
+                                              <i class="fas fa-times"></i>
+                                            </div>
+                                      <div class="search-data">
+                                      </div>
+                                      </div>            
+                            </div>
+                        </div>
+        <div class="container">
+            <div class="row row-moibaiviet1"  style="padding-top:150px;width:100%;margin: unset;">
+                <div  class="row row-moibaiviet" style="display: flex;padding-left:15px;">
+                    <a href="moi-bai-viet.html" style="text-decoration: none;color:black;">
+                        <div class="moi-bai-viet" style="width:220px;">
+                            <img style="width: 200px" src="tintuc2.png" alt="">
+                            <p style="padding:20px 5px;text-align: left;font-size:12px;">8 sản phẩm phấn phủ kiềm dầu hỗ trợ trang điểm mịn lì</p>
+                        </div>
+                    </a>
+                    <a href="moi-bai-viet.html" style="text-decoration: none;color:black;">
+                        <div class="moi-bai-viet" style="width:220px;">
+                            <img style="width: 200px" src="tintuc5.jpg" alt="">
+                            <p style="padding:20px 5px;text-align: left;font-size:12px;">Văn Mai Hương ăn mừng dáng nuột nà với bộ ảnh mới</p>
+                        </div>
+                    </a>
+                    <a href="moi-bai-viet.html" style="text-decoration: none;color:black;">
+                        <div class="moi-bai-viet" style="width:220px;">
+                            <img style="width: 200px" src="tintuc3.png" alt="">
+                            <p style="padding:20px 5px;text-align: left;font-size:12px;">Lựa chọn làm đẹp lành tính từ Bio LAK- thương hiệu mỹ phẩm Việt Nam đầu tiên đạt chứng nhận Non-GMO quốc tế</p>
+                        </div>
+                    </a>
+                    <a href="moi-bai-viet.html" style="text-decoration: none;color:black;">
+                        <div class="moi-bai-viet" style="width:220px;">
+                            <img style="width: 200px" src="tintuc4.jpg" alt="">
+                            <p style="padding:20px 5px;text-align: left;font-size:12px;">LANCI - ĐÁNH DẤU BƯỚC NGOẶT MỚI CHO HÀNH TRÌNH DƯỠNG DA TRẮNG MƯỚT AN TOÀN, THÔNG MINH CHO PHỤ NỮ VIỆT</p>
+                        </div>
+                    </a>
+                    <a href="moi-bai-viet.html" style="text-decoration: none;color:black;">
+                        <div class="moi-bai-viet" style="width:220px;">
+                            <img style="width: 200px" src="tintuc2.png" alt="">
+                            <p style="padding:20px 5px;text-align: left;font-size:12px;">Hà Anh Tuấn - Người viết chương tình yêu vẹn tròn trong Đại nhạc hội SON IV</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="moibaiviet1" style="width:100%;">
+                    <h3 style="text-transform: uppercase;">8 SẢN PHẨM PHẤN PHỦ KIỀM DẦU HỖ TRỢ TRANG ĐIỂM MỊN LÌ</h3>
+                    <br>
+                    <div style="display: flex;align-items: center;padding:10px 10px;">
+                        <div>
+                            <img style="width:40px;height:40px;border-radius:50%;" src="avatar.jpg" alt="">
+                        </div>
+                        <div style="font-size:12px;padding-left:10px;" >
+                            <span>Biên tập Sophie Thanh Huyen</span> <br>
+                            <span>Xuất bản: 29/10/2022 13:00:25</span> | <span>Chỉnh sửa:  29/10/2022 12:57:35</span>
+                        </div>
+                    </div>
+                    <br>
+                    <p style="font-style: italic;">Phong cách trang điểm mịn lì đặc biệt được ưa chuộng trong những ngày cuối năm. Đạt được lớp makeup đúng chuẩn phong cách đó đồng nghĩa với việc bạn không thể thiếu một loại phấn phủ kiềm dầu thật tốt.</p>
+                    <br>
+                    <p>Ở các bước trang điểm, phấn phủ nằm ở bước makeup cuối cùng để giữ lớp kem nền và che khuyết điểm không bị bóng dầu và cakey. Với những ai sở hữu làn da dầu thì việc trang bị một sản phẩm phấn phủ kiềm dầu tốt là điều vô cùng cần thiết. Dưới đây, ELLE mách cho bạn một vài sản phẩm hạn chế nhiều mồ hôi trong hoạt động thường ngày, từ đó giúp cho làn da mịn màng, căng bóng hơn. </p>
+                    <br>
+                    <div style="border:1px solid #F0F0F0;padding: 10px 10px;">
+                        <img style="width:100%;" src="baiviet1.jpg" alt="">
+                        <div style="text-align: center;">
+                            <p style="margin-top:5px;">Phấn phủ là điều tất yếu giúp lớp nền trang điểm căng bóng và mịn màng. Ảnh: Pexels.</p>
+                        </div>
+                    </div>
+                    <br>
+                    <h5 style="text-transform: uppercase;">1. PHẤN PHỦ MAYBELLINE DẠNG NÉN SIÊU MỊN DA, KIỀM DẦU SPF 18 CLEAR SMOOTH </h5>
+                    <p>Maybelline Clear Smooth với các hạt phấn mịn màng giúp làn da trắng sáng và tự nhiên ở bất cứ nơi đâu. Với khả năng hút nhờn hiệu quả, Maybelline Clear Smooth góp phần làm cho gương mặt của bạn sáng ngời và không bóng nhờn suốt 8 giờ đồng hồ. Ngoài ra, sản phẩm phấn phủ dạng nén này có chỉ số chống nắng SPF 18 ngăn chặn tia UV cùng độ che phủ hoàn hảo, tạo cảm giác nhẹ nhàng. Sản phẩm này sẽ giúp bạn tự tin với vẻ ngoài tỏa sáng của mình suốt ngày dài năng động. </p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <img style="width:350px;" src="baiviet2.jpeg" alt="">
+                        <p style="text-align: left;">Phấn phủ dạng nén kiềm dầu Maybelline Clear Smooth giúp bạn tỏa sáng với làn da trắng sáng, mịn màng của mình ở bất cứ nơi đâu.</p>
+                        <p style="text-align: left;">128,000<sup>đ</sup></p>
+                        <p style="text-align: left;font-weight: bold;">PHẤN PHỦ MAYBELLINE DẠNG NÉN</p>
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:150px;"></div>
+                    <h5 style="text-transform: uppercase;">2. MAC COSMETICS STUDIO FIX POWDER PLUS FOUNDATION </h5>
+                    <p>Một sản phẩn phấn phủ “vừa mịn vừa lì” chắc chắn sẽ luôn có sự xuất hiện của thương hiệu Mac Cosmetics. Là sản phẩm trang điểm tích hợp vừa là kem nền vừa là phấn phủ, Mac Cosmetics Studio Fix Powder Plus Foundation là sự lựa chọn hàng đầu của mọi cô gái muốn có lớp nền mỏng nhẹ thoải mái và có thể giữ tông da lên đến 12 tiếng. Bột Talc trong sản phẩm có tác dụng làm mịn và che lấp đi các khuyết điểm như lỗ chân lông, vết thâm nám, tàn nhàng, mụn… Phấn phủ dạng nén Mac Cosmetics Studio Fix Powder Plus Foundation dùng cho mọi loại da, đặc biệt là da dầu.</p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <img style="width:350px;" src="baiviet3.jpeg" alt="">
+                        <p style="text-align: left;">Phấn phủ không màu mịn màng phù hợp với mọi tông màu da, giúp giảm bóng dầu. Sử dụng trên lớp trang điểm hoặc sử dụng riêng.</p>
+                        <p style="text-align: left;">1,090,000<sup>đ</sup></p>
+                        <p style="text-align: left;font-weight: bold;">MAC COSMETICS STUDIO FIX POWDER PLUS FOUNDATION</p>
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <div class="banner-moibaiviet" style="display: flex;background-color: #E8E8E8;width: 100%;padding:10px 20px;">
+                        <div>
+                            <img class="img-banner-moibaiviet" style="width: 400px;" src="baiviet4.jpg" alt="">
+                        </div>
+                        <div style="padding: 10px 20px;">
+                            <span style="text-transform: uppercase;border-bottom:1px solid red;font-size:20px;">XU HƯỚNG & CẢM HỨNG</span> <br>
+                            <p style="font-size:20px;font-weight: 600;text-transform: uppercase;padding-top:25px;">Trang điểm cho mí mắt dầu sẽ không còn là nỗi lo với các mẹo sau đây</p>
+                        </div>
+                    </div>
+                    <div style="padding-top:50px;"></div>
+                    <h5 style="text-transform: uppercase;">3. PHẤN PHỦ NARS COSMETICS LIGHT REFLECTING™ SETTING POWDER – PRESSED </h5>
+                    <p>Phấn phủ dạng nén Light Reflecting Setting Powder-Pressed sở hữu công thức kiềm dầu nhưng lại không gây cảm giác khô mốc tạo được vẻ ngoài căng mướt tự nhiên cho da và làm mờ đi lỗ chân lông. Không những thế, sản phẩm được khách hàng đánh giá tốt nhờ khả năng giữ lớp trang điểm không trôi cả ngày, thấm hút nhờn hoàn hảo. Bột khoáng siêu mịn chứa Glycerin và vitamin E trong phấn phủ NARS Cosmetics giúp chống lại tình trạng khô da và giữ cho làn da thoải mái cả ngày. Sản phẩm còn giúp phục hồi vẻ ngoài tươi trẻ cho làn da, để làn da trông hoàn hảo trước mắt và trước máy ảnh. </p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <img style="width:350px;" src="baiviet5.png" alt="">
+                        <p style="text-align: left;">Phấn phũ trong suốt không màu hiệu chỉnh ánh sáng theo nguồn sáng, cho làn da hoàn hảo trên hình - và đời thực</p>
+                        <p style="text-align: left;">1,150,000<sup>đ</sup></p>
+                        <p style="text-align: left;font-weight: bold;">NARS LIGHT REFLECTING PRESSED SETTING POWDER</p>
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <h5 style="text-transform: uppercase;">4. PHẤN PHỦ DẠNG BỘT SHISEIDO SYNCHRO SKIN INVISIBLE SILK LOOSE POWDER</h5>
+                    <p>Phấn phủ Shieldo Synchro Skin Invisible Silk Loose Powder với bột phấn siêu nhẹ mang đến hiệu ứng trang điểm đa chiều. Từng hạt phấn được bao bọc bởi các thành phần dưỡng da, không lộ các hạt phấn trên da, tán đều dễ dàng và thoáng khí. Loại bột phấn trong sản phẩm giúp kiềm dầu suốt 8 tiếng và che đi lỗ chân lông cho làn da bóng mượt, mịn màng hơn. Ngoài ra, không thế thiếu các công dụng như làm mờ những khuyết điểm và nếp nhăn. Đặc biệt, sản phẩm phấn phủ Shieldo sở hữu công nghệ tương tích Responsive Sensory “càn quét” tất cả tình trạng, tông da và kết cấu da cho một lớp nền tự nhiên nhất có thể. Bên cạnh đó, thành phần Polymer ngăn chặn sự bám dính của các hạt ô nhiễm lên làn da, từ đó ngăn ngừa sự xuất hiện của mụn. </p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <img style="width:350px;" src="baiviet6.jpeg" alt="">
+                        <p style="text-align: left;">Bột phấn siêu mịn, nhẹ tựa không, đồng điệu với làn da, hiệu chỉnh và giữ trang điểm lâu trôi, bền màu.</p>
+                        <p style="text-align: left;">1,100,000<sup>đ</sup></p>
+                        <p style="text-align: left;font-weight: bold;">PHẤN PHỦ DẠNG BỘT SYNCHRO SKIN INVISIBLE SILK LOOSE POWDER</p>
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <div  class="banner-moibaiviet"style="display: flex;background-color: #E8E8E8;width: 100%;padding:10px 20px;">
+                        <div>
+                            <img  class="img-banner-moibaiviet"style="width: 400px;" src="baiviet7.jpg" alt="">
+                        </div>
+                        <div style="padding: 10px 20px;">
+                            <span style="text-transform: uppercase;border-bottom:1px solid red;font-size:20px;">XU HƯỚNG & CẢM HỨNG</span> <br>
+                            <p style="font-size:20px;font-weight: 600;text-transform: uppercase;padding-top:25px;">Các mẹo trang điểm lâu trôi sau lớp khẩu trang</p>
+                        </div>
+                    </div>
+                    <div style="padding-top:50px;"></div>
+                    <h5 style="text-transform: uppercase;">5. PHẤN PHỦ MAKEUP REVOLUTION DẠNG BỘT LOOSE BAKING POWDER TRANSLUCENT </h5>
+                    <p>Sản phẩm được yêu thích vì khả năng loại bỏ bóng dầu, làm sáng và cân bằng màu da. Nếu bạn muốn các bộ phận trên khuôn mặt trông sáng hơn, hãy nhớ làm ẩm miếng bọt biển và vỗ một lớp bột dày. Phấn phủ dạng lỏng là một lựa chọn tốt cho những ai muốn có một lớp nền sáng, mượt và đều màu. Các thành phần tạo nên lớp nền lỳ mịn có trong sản phẩm là Talc và Mica. Đây là 2 thành phần tạo cảm giác mượt, mềm mại, căng bóng và tăng độ bám trên da. </p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <img style="width:350px;" src="baiviet8.jpeg" alt="">
+                        <p style="text-align: left;">Phấn phủ Makeup Revolution với tông màu gần như trong suốt và hạt phấn có độ thấm hút cao còn có thể sử dụng như Phấn Phủ Kiềm Dầu.</p>
+                        <p style="text-align: left;">239,000<sup>đ</sup></p>
+                        <p style="text-align: left;font-weight: bold;">PHẤN PHỦ MAKEUP REVOLUTION DẠNG BỘT LOOSE BAKING POWDER TRANSLUCENT </p>
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <h5 style="text-transform: uppercase;">6. PHẤN PHỦ CLE DE PEAU TRANSLUCENT LOOSE POWDER</h5>
+                    <p>Được lấy cảm hứng từ kim cương, phấn phủ Cle de Peau Translucent Loose Powder là sự bổ sung hoàn hảo cho một lớp nền sáng đều màu và lâu trôi cho một ngày. Sản phẩm phấn phủ đến từ thương hiệu Cle de peau định nghĩa cuộc sống rạng rỡ, nhiều màu sắc nhất của bạn. Translucent Loose Powder là sự kết hợp giữa yếu tố trang điểm và chăm sóc da, hiệu ứng Light-Empowering Enhancer độc quyền giúp tăng cường lớp nền căng mướt và bột Light-Empowering Treatment duy trì tình trạng tốt nhất cho da của bạn. </p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <img style="width:350px;" src="baiviet9.jpeg" alt="">
+                        <p style="text-align: left;">Clé de Peau Beauté Translucent Loose Powder là dòng phấn phủ của nhà Clé de Peau được mệnh danh là dòng phấn siêu mịn và mượt mà như tơ lụa. Sản phẩm giúp che phủ hoàn hảo, tăng cường hiệu ứng ánh sáng tự nhiên mang đến lớp makeup mịn màng, căng mượt.</p>
+                        <p style="text-align: left;">2,400,000<sup>đ</sup></p>
+                        <p style="text-align: left;font-weight: bold;">PHẤN PHỦ CLE DE PEAU</p>
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <div class="banner-moibaiviet" style="display: flex;background-color: #E8E8E8;width: 100%;padding:10px 20px;">
+                        <div>
+                            <img class="img-banner-moibaiviet" style="width: 400px;" src="baiviet10.png" alt="">
+                        </div>
+                        <div style="padding: 10px 20px;">
+                            <span style="text-transform: uppercase;border-bottom:1px solid red;font-size:20px;">XU HƯỚNG & CẢM HỨNG</span> <br>
+                            <p style="font-size:20px;font-weight: 600;text-transform: uppercase;padding-top:25px;">6 mẹo "bỏ túi" cho cách trang điểm hằng ngày</p>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <h5 style="text-transform: uppercase;">7. PHẤN PHỦ CHANEL HIỆU ỨNG CĂNG MỊN LES BEIGES POWDER </h5>
+                    <p>Sự kết hợp giữa các hạt ngọc trai phản chiếu ánh sáng một cách hoàn hảo và bột sứ mang đến hiệu ứng sáng khỏe cho làn da suốt cả ngày dài. Sản phẩm Chanel được làm từ công thức chứa chiết xuất từ ​​hoa hồng trắng và hoa cotton, được biết đến với tác dụng làm dịu da, ngoài ra còn có các thành phần lâu trôi khác, giúp lớp trang điểm nguyên vẹn từ sáng đến tối. </p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <img style="width:350px;" src="baiviet11.jpeg" alt="">
+                        <p style="text-align: left;">Công thức chứa chiết xuất từ ​​hoa hồng trắng và hoa cotton, hai thành phần được biết đến với tác dụng làm dịu da, ngoài ra còn có các thành phần lâu trôi khác, giúp lớp trang điểm nguyên vẹn từ sáng đến tối.</p>
+                        <p style="text-align: left;">0<sup>đ</sup></p>
+                        <p style="text-align: left;font-weight: bold;">PHẤN PHỦ CHANEL</p>
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <h5 style="text-transform: uppercase;">8. PHẤN PHỦ GUCCI POUDRE DE BEAUTÉ MAT NATUREL FACE POWDER</h5>
+                    <p>Phấn phủ Gucci Poudre De Beaute Mat Naturel có kết cấu mỏng nhẹ, mịn màng, che phủ khuyết điểm ổn và đặc biệt trông cực kỳ tự nhiên. Bột lamellar phản chiếu trên bề mặt da để da trông đều màu và hạt phấn cực nhỏ mịn lên da rất mềm và mỏng, tạo cảm giác thoải mái suốt cả ngày. Được tạo hương thơm với hương hoa tinh tế, lớp phấn nhẹ được thoa bằng một miếng bọt biển mềm có mùi phấn dịu nhẹ đọng trên da mặt. Sản phẩm có độ che phủ và khả năng kiềm dầu tốt, từ đó tạo cảm giác tự nhiên hoàn hảo và giữ được lớp nền lâu trôi trong thời gian dài. Thích hợp cho mọi loại da. </p>
+                    <div style="margin:auto;text-align: center;width: 350px;padding-top:20px;">
+                        <!-- <img style="width:350px;" src="baiviet11.jpeg" alt=""> -->
+                        <!-- <p style="text-align: left;">Công thức chứa chiết xuất từ ​​hoa hồng trắng và hoa cotton, hai thành phần được biết đến với tác dụng làm dịu da, ngoài ra còn có các thành phần lâu trôi khác, giúp lớp trang điểm nguyên vẹn từ sáng đến tối.</p> -->
+                        <p style="text-align: left;">0<sup>đ</sup></p>
+                        <!-- <p style="text-align: left;font-weight: bold;">PHẤN PHỦ CHANEL</p> -->
+                        <div style="text-align: left;">
+                            <a class="btn-muabaiviet" href="" style="text-decoration: none;color:white;">Mua ngay</a>
+                        </div>
+                    </div>
+                    <div style="padding-top:100px;"></div>
+                    <h5 style="text-transform: uppercase;">MỘT SỐ LƯU Ý ĐỂ LỚP PHẤN PHỦ LUÔN BỀN MÀU</h5>
+                    <p>Một lưu ý dành cho các bạn về cách đánh phấn phủ đối với cả dạng bột và dạng nén: hãy dặm cọ, bông phấn theo chiều vuông góc với mặt. Không nên miết một đường kéo dài vì sẽ tạo ra những vệt phấn trông rất mất thẩm mỹ. Ngoài ra, sau quá trình hoạt động, nếu cảm thấy lớp makeup đã xuống tone do trôi nền, do dầu và mồ hôi tiết ra, bạn có thể tranh thủ dặm lại một chút phấn phủ để lấy lại phong độ ngay tức thời. </p>
+                    <div style="padding-top:50px;"></div>
+                    <div style="width: 100%;
+                    background-color: #F1F0F0;
+                    padding: 15px 26px;
+                    font-size: 12px;
+                    line-height: 2.5;">
+                        <span style="font-weight: bold;">Nhóm thực hiện</span>
+                        <hr>
+                        <span>Bài: Hồng Như</span><br>
+                        <span>Nguồn: Tạp chí Phái đẹp ELLE</span><br>
+                        <span>Ảnh: Tổng hợp</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row row-moibaiviet4" style="width:100%;padding-top:50px;">
+                <div style="width:100%;">
+                    <p style="padding:20px 20px;;font-size:30px;">Bài viết liên quan</p>
+                </div>
+                <br>
+                <div class="col col-moibaiviet">
+                    <img style="width:100%;" src="baiviet12.png" alt="">
+                    <p style="    font-size: 22px;
+                    font-weight: 600;
+                    padding-top: 15px;">RETINOL BỌC LÀ GÌ VÀ LIỆU CHÚNG CÓ PHÙ HỢP VỚI LÀN DA CỦA BẠN?</p>
+                </div>
+                <div class="col col-moibaiviet">
+                    <div class="row">
+                        <div class="col">
+                            <img style="width:100%;" src="baiviet13.jpg" alt="">
+                            <p style="padding-top:15px;font-weight:600;font-size:13px;">360 ĐỘ SẢN PHẨM LÀM ĐẸP DÀNH CHO CÔ DÂU VÀ CHÚ RỂ</p>
+                        </div>
+                        <div class="col">
+                            <img style="width:100%;" src="baiviet14.png" alt="">
+                            <p style="padding-top:15px;font-weight:600;font-size:13px;">
+                                TRANG ĐIỂM THU - ĐÔNG 2022: NHỮNG MẢNG MÀU MOSAIC RỰC RỠ
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img style="width:100%;" src="baiviet15.jpg" alt="">
+                            <p style="padding-top:15px;font-weight:600;font-size:13px;">NHỮNG MÀU SON MÔI GOTHIC THỐNG LĨNH MÙA LỄ HỘI CUỐI NĂM</p>
+                        </div>
+                        <div class="col">
+                            <img style="width:100%;" src="baiviet16.jpg" alt="">
+                            <p style="padding-top:15px;font-weight:600;font-size:13px;">NHỮNG SAO HOA NGỮ THEO ĐUỔI PHONG CÁCH TRANG ĐIỂM “CÔ GÁI NHÀ BÊN”</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer footer-2" style="position: relative;top:50px;height:500px;background-color: #F8F8F8;width: 100%;">
+        <div class="row" style="width: 100%;">
+            <div class="col-md-7">
+                <div class="row row-footer" style="position: relative;
+                top: 100px;
+                padding-left: 50px;">
+                    <div class="col-md-4 col-footer4">
+                        <h5>Company</h5>
+                        <ul class="contact-footer" style="width:170px;">
+                            <li class="item-contact">
+                                Find a location nearest you. See <a
+                                    style="text-decoration: underline;font-weight: bold;color:black;" href="#">Our
+                                    Stones</a><br>
+                            </li>
+                            <li class="item-contact" style="padding-top:20px;">
+                                <span style="font-weight: bold;color:black;">+391 (0)35 2568 4593</span>
+                                <span>hello@domain.com</span>
+                            </li>
+                        </ul>
+                        <br>
+
+                    </div>
+                    <div class="col-md-4" style="padding-left:50px;">
+                        <h5>Useful links</h5>
+                        <ul class="contact-footer">
+                            <li class="item-contact">New Products</li>
+                            <li class="item-contact">Best Sellers</li>
+                            <li class="item-contact">Bundle & Save</li>
+                            <li class="item-contact">Online Gift Card</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4" style="padding-left:50px;">
+                        <h5>Infomation</h5>
+                        <ul class="contact-footer">
+                            <li class="item-contact">Start a Return</li>
+                            <li class="item-contact">Contact Us</li>
+                            <li class="item-contact">Shipping FAQ</li>
+                            <li class="item-contact">Terms & Conditions</li>
+                            <li class="item-contact">Privacy Policy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5" style="position: relative;
+            top: 100px;
+            padding-left: 50px;">
+                <div class="row">
+                    <h3>Good emails.</h3><br>
+                    <p style="padding-top:15px;color:gray;width: 500px;">Enter your email below to be the first to know
+                        about new collections and product launches.</p>
+                </div>
+                <br>
+                <div class="row">
+                    <input class="input-footer" type="email" placeholder="Enter your email adress..."
+                        style="width: 400px; border:1px solid #EEEEEE;padding-left:15px;"><button style="    background: black;
+                    color: white;
+                    padding: 10px 35px;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-footerr" style="position: relative;
+        top: 150px;display: flex;justify-content: space-between;align-items: center;width: 100%;">
+            <div>
+                <div style="display: flex;
+                justify-content: space-evenly;
+                width: 350px;padding-left:50px;">
+                    <div>© Jany 2021</div>
+                    <div><i class="fa-brands fa-facebook-f"></i></div>
+                    <div><i class="fa-brands fa-tiktok"></i></div>
+                    <div><i class="fa-brands fa-youtube"></i></div>
+                    <div><i class="fa-brands fa-instagram"></i></div>
+                </div>
+            </div>
+            <div class="img-footer-logo" style="font-size:30px;font-weight: bold;text-align: center;">
+                <img style="width: 250px;" src="logo.png" alt="">
+            </div>
+            <div class="footer-icon" style="padding-right:50px;"><img src="icon-pay.png" alt=""></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+        <script>
+            const searchBox = document.querySelector(".search-box");
+            const searchBtn = document.querySelector(".search-icon");
+            const cancelBtn = document.querySelector(".cancel-icon");
+            const searchInput = document.querySelector("input");
+            const searchData = document.querySelector(".search-data");
+            searchBtn.onclick =()=>{
+              searchBox.classList.add("active");
+              searchBtn.classList.add("active");
+              searchInput.classList.add("active");
+              cancelBtn.classList.add("active");
+              searchInput.focus();
+              if(searchInput.value != ""){
+                var values = searchInput.value;
+                searchData.classList.remove("active");
+                searchData.innerHTML = "You just typed " + "<span style='font-weight: 500;'>" + values + "</span>";
+              }else{
+                searchData.textContent = "";
+              }
+            }
+            cancelBtn.onclick =()=>{
+              searchBox.classList.remove("active");
+              searchBtn.classList.remove("active");
+              searchInput.classList.remove("active");
+              cancelBtn.classList.remove("active");
+              searchData.classList.toggle("active");
+              searchInput.value = "";
+            }
+          </script>
+</body>
+
+</html>
