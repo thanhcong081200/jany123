@@ -62,7 +62,7 @@
     }
     .desc-product{
         padding:unset !important;
-        font-size:11px;
+        font-size:10px;
     }
     .btn-shopnow{
         width: 80px !important;
@@ -300,6 +300,9 @@
     .desc-tintuc{
         padding-left:20px;
         padding-top:10px;
+    }
+    .ul-tin{
+        margin-left:-15px !important;
     }
     .tin-tuc-bai-viet-2{
         display: unset !important;
