@@ -364,7 +364,7 @@
     .col-detail{
         display: flex !important;
         padding-left:unset !important;
-        margin-left:5px !important;
+        padding-right:unset !important;
     }
     .detail-shop-buy{
         width: 100% !important;
