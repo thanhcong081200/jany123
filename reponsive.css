@@ -1,3 +1,149 @@
+@media (min-width:740px) and (max-width:1024px){
+    .item-board{
+        padding:30px 5px !important;
+    }
+    .menu-body{
+        width: 1024px !important;
+    }
+    .search-box.active{
+        width:200px !important;
+    }
+    .search-box{
+        left:-45px !important;
+    }
+    .img1{
+        width: 100% !important;
+    }
+    .name-product{
+        font-size:30px !important;
+    }
+    .img-logo-1980{
+        margin-left:15px !important;
+    }
+    .img-mobile{
+        width: 200px !important;
+        height:300px !important;
+    }
+    .img-carousel{
+        width: 200px !important;
+        height:300px !important;
+    }
+    .select-item{
+        margin-left: 168px !important;
+        top: 40px !important;
+    }
+    .select-item1{
+        margin-left: 168px !important;
+        top: 40px !important;
+    }
+    .select-item2{
+        margin-left: 168px !important;
+        top: 40px !important;
+    }
+    .select-item3{
+        margin-left: 168px !important;
+        top: 40px !important;
+    }
+    .feature-product{
+        height:800px !important;
+    }
+    .row-mobile2{
+        margin-top:-10px !important;
+    }
+    .img-banner-mobile{
+        width: 300px !important;
+    }
+    .img-col7-mobile{
+        width: 180px !important;
+        height: 250px !important;
+    }
+    .row-col4-mobile{
+        padding:30px 0px !important;
+    }
+    .desc-col4-mobile{
+        margin-left:12px !important;
+    }
+    .banner-mobile h1{
+        font-size:20px !important;
+    }
+    .mobile-footer1{
+        margin-top:-150px !important;
+    }
+    .row-footer1{
+        width: unset !important;
+    }
+    .img-footer11{
+        width:150px !important;
+        height:150px !important;
+    }
+    .footer-home{
+        top:150px !important;
+    }
+    .contact{
+        right: 25px !important;
+        top: 480px !important;
+    }
+    .contact1{
+        right: 25px !important;
+        top: 480px !important;
+    }
+    .input-footer{
+        width: 240px !important;
+    }
+    .menu-shop h5{
+        font-size:14px !important;
+    }
+    .menu-shop div{
+        font-size:13px !important;
+    }
+    .menu-name{
+        padding:5px 0px !important;
+    }
+    .menu-title{
+        padding:5px 0px !important;
+    }
+    .row-moibaiviet{
+        display: none !important;
+    }
+    .img-shop1{
+        width: 165px !important;
+        height:220px !important;
+    }
+    .title-shop-mobile{
+        width: 160px !important;
+    }
+    .btn-more-mobile{
+        left:300px !important
+    }
+    .img-shop-mobile{
+        width: 165px !important;
+        height:220px !important;
+    }
+    .select-item-shop{
+        left:155px !important;
+        top:10px !important;
+        font-size:14px !important;
+    }
+    .item-shop-choose{
+        width:30px !important;
+        height:30px !important;
+    }
+    .infor-detail{
+        width: 100% !important;
+    }
+    .section-shop{
+        width: 200px !important;
+    }
+    .section-shop div img{
+        width: 150px !important;
+    }
+    .btn-muangay{
+        padding:15px 10px !important;
+    }
+    .btn-themgiohang{
+        padding:15px 10px !important;
+    }
+}
 @media (max-width:400px){
     .navbar-brand{
         width:260px !important;
