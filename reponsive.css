@@ -70,7 +70,7 @@
         margin-top:-150px !important;
     }
     .row-footer1{
-        width: unset !important;
+        width: 100% !important;
     }
     .img-footer11{
         width:150px !important;
@@ -148,6 +148,14 @@
     .navbar-brand{
         width:260px !important;
     }
+    .mobile-carousel{
+        display: block !important;
+        top:0px !important;
+    }
+    .slider-mobile{
+        top:0px !important;
+        display: none !important;
+    }
     .contact{
         top:400px !important;
         right:15px !important;
@@ -165,9 +173,10 @@
     .col-item{
         padding-left:5px !important;
     }
-    /* .row-mobile-home{
-        margin: auto !important;
-    } */
+    .row-mobile-home{
+        margin-left:unset !important;
+        margin-right:unset !important;
+    }
     .img-banner-mobile{
         width:360px !important;
     }
@@ -183,6 +192,9 @@
     .reaction{
         padding:10px 0 !important;
     }
+    .row-footerr{
+        width: 400px !important;
+    }
 }
 /* Iphone 6/7/8/Plus */
 @media (max-width:740px){
@@ -193,6 +205,11 @@
         display: none !important;
     }
     .slider-mobile{
+        top:0px !important;
+        display: none !important;
+    }
+    .mobile-carousel{
+        display: block !important;
         top:0px !important;
     }
     .infor-product{
@@ -282,7 +299,7 @@
         padding-left:0px !important;
     }
     .img1{
-        width: 440px !important;
+        width: 390px !important;
     }
     .infor-product1{
         margin-left:35px !important;
@@ -366,6 +383,13 @@
     .footer{
         top:2800px !important;
         height: unset !important;
+        width: 385px !important;
+    }
+    .mobile-footer1{
+        width: 385px !important;
+    }
+    .row-footerr{
+        width: 400px !important;
     }
     .footer-2{
         top:unset !important;

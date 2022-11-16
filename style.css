@@ -17,6 +17,9 @@ html {
   .row-mobile-shop{
     display: none !important;
   }
+  .mobile-carousel{
+    display: none !important;
+  }
 /* Header */
 .header{
     height:54px;
