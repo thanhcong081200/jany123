@@ -1,3 +1,4 @@
+/* Tablet */
 @media (min-width:740px) and (max-width:1024px){
     .item-board{
         padding:30px 5px !important;
@@ -144,6 +145,7 @@
         padding:15px 10px !important;
     }
 }
+/* Điện thoại nhỏ */
 @media (max-width:400px){
     .navbar-brand{
         width:260px !important;
@@ -168,7 +170,7 @@
         right:20px !important;
     }
     .img1{
-        max-width: 400px !important;
+        max-width: 375px !important;
     }
     .col-item{
         padding-left:5px !important;
@@ -193,11 +195,17 @@
         padding:10px 0 !important;
     }
     .row-footerr{
-        width: 400px !important;
+        width: 360px !important;
+    }
+    .footer-home{
+        width: 360px !important;
     }
 }
 /* Iphone 6/7/8/Plus */
 @media (max-width:740px){
+    .img1{
+        width: 425px !important;
+    }
     .navbar{
         display: block !important;
     }
@@ -298,9 +306,6 @@
     .col-item{
         padding-left:0px !important;
     }
-    .img1{
-        width: 390px !important;
-    }
     .infor-product1{
         margin-left:35px !important;
     }
@@ -383,14 +388,10 @@
     .footer{
         top:2800px !important;
         height: unset !important;
-        width: 385px !important;
     }
-    .mobile-footer1{
-        width: 385px !important;
-    }
-    .row-footerr{
+    /* .row-footerr{
         width: 400px !important;
-    }
+    } */
     .footer-2{
         top:unset !important;
     }
