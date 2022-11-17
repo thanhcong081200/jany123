@@ -564,7 +564,63 @@
         margin-left:50px !important;
     }
 }
-
+@media (min-width:1400px) and (max-width:1439px){
+    .carousel-pc-1980{
+        padding:0 30px !important;
+        justify-content: space-evenly !important;
+    }
+    .img-logo-1980{
+        margin-left:50px !important;
+    }
+    .col-item-1980{
+        margin-left:60px !important;
+    }
+    .img1{
+        width: 600px !important;
+    }
+    .img-banner-mobile{
+        width: 470px !important;
+    }
+    .img-col7-mobile{
+        width: 250px !important;
+    }
+    .desc-col4-mobile{
+        margin-left: 50px !important;
+    }
+    .img-mobile{
+        width: 300px !important;
+    }
+    .img-carousel{
+        width: 300px !important;
+    }
+    .select-item{
+        margin-left:260px !important;
+    }
+    .select-item1{
+        margin-left:260px !important;
+    }
+    .select-item2{
+        margin-left:260px !important;
+    }
+    .select-item3{
+        margin-left:260px !important;
+    }
+    .img-shop1{
+        width: 220px !important;
+    }
+    .img-shop-mobile{
+        width: 220px !important;
+    }
+    .select-item-shop{
+        left: 200px !important;
+    }
+    .title-shop-mobile{
+        width: 230px !important;
+    }
+    .btn-more-mobile{
+        left:450px !important;
+    }
+}
 @media (min-width:1440px){
     .carousel-pc-1980{
         padding:0 30px !important;
@@ -580,13 +636,46 @@
         width: 600px !important;
     }
     .img-banner-mobile{
-        width: 450px !important;
+        width: 470px !important;
     }
     .img-col7-mobile{
         width: 250px !important;
     }
     .desc-col4-mobile{
         margin-left: 55px !important;
+    }
+    .img-mobile{
+        width: 300px !important;
+    }
+    .img-carousel{
+        width: 300px !important;
+    }
+    .select-item{
+        margin-left:260px !important;
+    }
+    .select-item1{
+        margin-left:260px !important;
+    }
+    .select-item2{
+        margin-left:260px !important;
+    }
+    .select-item3{
+        margin-left:260px !important;
+    }
+    .img-shop1{
+        width: 220px !important;
+    }
+    .img-shop-mobile{
+        width: 220px !important;
+    }
+    .select-item-shop{
+        left: 200px !important;
+    }
+    .title-shop-mobile{
+        width: 230px !important;
+    }
+    .btn-more-mobile{
+        left:450px !important;
     }
 }
 
