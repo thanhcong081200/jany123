@@ -565,6 +565,31 @@
     }
 }
 
+@media (min-width:1440px){
+    .carousel-pc-1980{
+        padding:0 30px !important;
+        justify-content: space-evenly !important;
+    }
+    .img-logo-1980{
+        margin-left:50px !important;
+    }
+    .col-item-1980{
+        margin-left:60px !important;
+    }
+    .img1{
+        width: 600px !important;
+    }
+    .img-banner-mobile{
+        width: 450px !important;
+    }
+    .img-col7-mobile{
+        width: 250px !important;
+    }
+    .desc-col4-mobile{
+        margin-left: 55px !important;
+    }
+}
+
 @media (min-width:1590px) and (max-width:1890px){
     .carousel-pc-1980{
         padding:0 30px !important;
