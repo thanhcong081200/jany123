@@ -139,10 +139,12 @@
         width: 150px !important;
     }
     .btn-muangay{
-        padding:15px 10px !important;
+        padding:15px 0px !important;
+        font-size:15px !important;
     }
     .btn-themgiohang{
-        padding:15px 10px !important;
+        padding:15px 0px !important;
+        font-size:15px !important;
     }
 }
 /* Điện thoại nhỏ */
@@ -544,11 +546,13 @@
         width: 100% !important;
         margin-left:15px !important;
     }
-    .btn-themgiohang{
-        padding:15px 4px !important;    
-    }
     .btn-muangay{
-        padding:15px 4px !important;
+        padding:15px 0px !important;
+        font-size:15px !important;
+    }
+    .btn-themgiohang{
+        padding:15px 0px !important;
+        font-size:15px !important;
     }
     .info-sanpham{
         margin:auto !important;
