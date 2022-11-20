@@ -170,7 +170,10 @@
         right:20px !important;
     }
     .img1{
-        max-width: 375px !important;
+        max-width: 350px !important;
+    }
+    .title-product11{
+        font-size: 18px !important;
     }
     .col-item{
         padding-left:5px !important;
@@ -180,7 +183,7 @@
         margin-right:unset !important;
     }
     .img-banner-mobile{
-        width:360px !important;
+        width:340px !important;
     }
     .colmd5-mobile{
         padding:30px 20px !important;
@@ -335,7 +338,7 @@
         margin-top:400px !important;
     }
     .img-banner-mobile{
-        width:360px !important;
+        width:340px !important;
         padding:unset !important;
         height: unset;
     }
